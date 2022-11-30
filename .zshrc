@@ -138,59 +138,12 @@ ex ()
   fi
 }
 
-#############
-#  ALIASES  #
-#############
-
-# Zsh
-alias aliases="cat ~/.zshrc | grep ^alias"
-alias src="source ~/.zshrc"
-alias zshconfig="code ~/.zshrc"
-alias ohmyzsh="code ~/.oh-my-zsh"
-
-# System
-alias reboot="sudo reboot"
-alias shutdown="sudo shutdown now"
-alias syslogs="sudo journalctl -p 3 -xb"
-
-# Packages
-alias p="sudo pacman"
-alias mirrors="sudo reflector -c Australia -a 6 --sort rate --verbose --save /etc/pacman.d/mirrorlist"
-alias orphans="pacman -Qtdq"
-alias rmorphans="sudo pacman -Rns $(pacman -Qdtq)"
-
-# Files
-alias l.='"ls -A | grep "^\."'
-alias cp="cp -i"
-alias mv="mv -i"
-alias rm="rm -i"
-alias encrypt="gpg -c"
-alias decrypt="gpg -d"
-
-# Backups
-alias backup_to_external="~/Scripts/backup/backup_to_external.sh"
-
-# Git
-alias add="git add"
-alias addall="git add ."
-alias branch="git branch"
-alias checkout="git checkout"
-alias commit="git commit -m"
-alias fetch="git fetch"
-alias pull="git pull"
-alias push="git push"
-alias status="git status"
-
-# Github
-alias config='/usr/bin/git --git-dir=$HOME/dotfiles/ --work-tree=$HOME'
-alias newgist="~/Scripts/create_gist.sh"
-alias newrepo="gh repo create"
-alias rebase="git checkout develop && git pull && git checkout - && git rebase develop"
-alias pushall="~/Scripts/push_all.sh"
-alias pullall="~/Scripts/pull_all.sh"
-
-# SSH
-alias sshtp="ssh jim@192.168.50.242"
+# Aliases
+alias zshconfig="code $HOME/.zshrc"
+alias ohmyzsh="code $HOME/.oh-my-zsh"
+#
+# The rest are in $ZSH_CUSTOM/aliases.zsh
+#
 
 # Default terminal editor
 export VISUAL='nano'

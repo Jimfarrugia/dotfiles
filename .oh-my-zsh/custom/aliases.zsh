@@ -49,3 +49,4 @@ alias pullall="$HOME/Scripts/pull_all.sh"
 
 # SSH
 alias sshtp="ssh jim@192.168.50.242"
+alias sshdt="ssh jim@192.168.50.244"

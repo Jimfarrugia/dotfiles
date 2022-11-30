@@ -141,9 +141,11 @@ ex ()
 # Aliases
 alias zshconfig="code $HOME/.zshrc"
 alias ohmyzsh="code $HOME/.oh-my-zsh"
+alias newalias="code $ZSH_CUSTOM/aliases.zsh"
 #
 # The rest are in $ZSH_CUSTOM/aliases.zsh
 #
+ALIASES="/home/jim/.oh-my-zsh/custom/aliases.zsh"
 
 # Default terminal editor
 export VISUAL='nano'

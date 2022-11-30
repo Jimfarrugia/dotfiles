@@ -162,6 +162,8 @@ alias rmorphans="sudo pacman -Rns $(pacman -Qdtq)"
 # Files
 alias l.='"ls -A | grep "^\."'
 alias cp="cp -i"
+alias mv="mv -i"
+alias rm="rm -i"
 alias encrypt="gpg -c"
 alias decrypt="gpg -d"
 

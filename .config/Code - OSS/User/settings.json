@@ -1,0 +1,77 @@
+{
+  "workbench.colorTheme": "Dracula",
+  "window.zoomLevel": -1,
+
+  "editor.fontFamily": "'JetBrains Mono', 'Droid Sans Mono', monospace",
+  "editor.fontLigatures": true,
+  "editor.formatOnSave": true,
+
+  "extensions.supportUntrustedWorkspaces": {
+    "shalldie.background": {
+      "supported": true
+    }
+  },
+
+  // Background - Custom background in text area
+  "background.enabled": true,
+  // backgrounds - local paths or web urls
+  "background.customImages": [
+    // "/mnt/storage/My\\ Files/KDE\\ theme/wallpapers/neon/neon-grid-radial-sun.jpg",
+    // "/mnt/storage/My\\ Files/KDE\\ theme/wallpapers/blade\\ runner/blade-runner-hologram-girl-pointing.jpg",
+    // "/mnt/storage/My\\ Files/KDE\\ theme/wallpapers/neon/neon\\ landscape/neon-sunset-mountain-grid-01.jpg",
+    // "/mnt/storage/My\\ Files/KDE\\ theme/wallpapers/neon/neon\\ landscape/neon-sunset-mountain-grid-03.jpg",
+    // "/mnt/storage/My\\ Files/KDE\\ theme/wallpapers/neon/neon\\ city/synthwave-car-on-street.jpg",
+    // "/mnt/storage/My\\ Files/KDE\\ theme/wallpapers/neon/neon\\ city/train-neon-synthwave-buildings-wallpaper.jpg",
+    // "/mnt/storage/My\\ Files/KDE\\ theme/wallpapers/neon/neon\\ city/neon-synthwave-helmet.jpg",
+    // "/mnt/storage/My\\ Files/KDE\\ theme/wallpapers/blade\\ runner/blade-runner-hologram-girl.png",
+    // "/mnt/storage/My\\ Files/KDE\\ theme/wallpapers/neon/neon\\ island/sunset_palm_silhouette_purple.jpg",
+    // "/mnt/storage/My\\ Files/KDE\\ theme/wallpapers/neon/neon-paradise-pool.png",
+    // "/mnt/storage/My\\ Files/KDE\\ theme/wallpapers/neon/neon-glitch-car-horizon.png",
+    // "/mnt/storage/My\\ Files/KDE\\ theme/wallpapers/neon/neon\\ landscape/neon-space-desert-road.jpg",
+    // "/mnt/storage/My\\ Files/KDE\\ theme/wallpapers/neon/neon\\ landscape/neon-pyramids-saturn.jpg",
+  ],
+  // Fullscreen background covers the whole window - use the ones above instead to only cover the textarea
+  "background.fullscreen": {
+    "image": [
+      "/mnt/storage/My\\ Files/KDE\\ theme/wallpapers/neon/neon-grid-radial-sun.jpg",
+      "/mnt/storage/My\\ Files/KDE\\ theme/wallpapers/blade\\ runner/blade-runner-hologram-girl-pointing.jpg",
+      "/mnt/storage/My\\ Files/KDE\\ theme/wallpapers/neon/neon\\ landscape/neon-sunset-mountain-grid-01.jpg",
+      "/mnt/storage/My\\ Files/KDE\\ theme/wallpapers/neon/neon\\ landscape/neon-sunset-mountain-grid-03.jpg",
+      "/mnt/storage/My\\ Files/KDE\\ theme/wallpapers/neon/neon\\ city/synthwave-car-on-street.jpg",
+      "/mnt/storage/My\\ Files/KDE\\ theme/wallpapers/neon/neon\\ city/train-neon-synthwave-buildings-wallpaper.jpg",
+      "/mnt/storage/My\\ Files/KDE\\ theme/wallpapers/neon/neon\\ city/neon-synthwave-helmet.jpg",
+      "/mnt/storage/My\\ Files/KDE\\ theme/wallpapers/blade\\ runner/blade-runner-hologram-girl.png",
+      "/mnt/storage/My\\ Files/KDE\\ theme/wallpapers/neon/neon\\ island/sunset_palm_silhouette_purple.jpg",
+      "/mnt/storage/My\\ Files/KDE\\ theme/wallpapers/neon/neon-paradise-pool.png",
+      "/mnt/storage/My\\ Files/KDE\\ theme/wallpapers/neon/neon-glitch-car-horizon.png",
+      "/mnt/storage/My\\ Files/KDE\\ theme/wallpapers/neon/neon\\ landscape/neon-space-desert-road.jpg",
+      "/mnt/storage/My\\ Files/KDE\\ theme/wallpapers/neon/neon\\ landscape/neon-pyramids-saturn.jpg"
+    ],
+    "opacity": 0.965, // opacity of foreground
+    "size": "cover",
+    "interval": 30
+  },
+  // Loop background images.
+  "background.interval": 30,
+  "background.loop": true,
+  // Custom common style.
+  "background.style": {
+    "content": "''",
+    "pointer-events": "none",
+    "position": "absolute",
+    "z-index": "99999",
+    // "width": "100%",
+    // "height": "100%",
+    "background-position": "center",
+    "background-repeat": "no-repeat",
+    "background-size": "cover",
+    "opacity": 0.05
+  },
+  // Individual styles
+  "background.styles": [{}, {}, {}],
+  "background.useDefault": false,
+  // If useFront is true, background is in front of code
+  "background.useFront": false,
+  "explorer.confirmDelete": false,
+  "security.workspace.trust.untrustedFiles": "open"
+}

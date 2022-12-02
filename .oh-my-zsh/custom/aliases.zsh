@@ -46,6 +46,7 @@ alias newrepo="gh repo create"
 alias rebase="git checkout develop && git pull && git checkout - && git rebase develop"
 alias pushall="$HOME/Scripts/push_all.sh"
 alias pullall="$HOME/Scripts/pull_all.sh"
+alias statusall="$HOME/Scripts/status_all.sh"
 
 # SSH
 alias sshtp="ssh jim@192.168.50.242"

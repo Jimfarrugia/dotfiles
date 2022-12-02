@@ -33,21 +33,24 @@
   // Fullscreen background covers the whole window - use the ones above instead to only cover the textarea
   "background.fullscreen": {
     "image": [
-      "/mnt/storage/My\\ Files/KDE\\ theme/wallpapers/neon/neon-grid-radial-sun.jpg",
-      "/mnt/storage/My\\ Files/KDE\\ theme/wallpapers/blade\\ runner/blade-runner-hologram-girl-pointing.jpg",
-      "/mnt/storage/My\\ Files/KDE\\ theme/wallpapers/neon/neon\\ landscape/neon-sunset-mountain-grid-01.jpg",
-      "/mnt/storage/My\\ Files/KDE\\ theme/wallpapers/neon/neon\\ landscape/neon-sunset-mountain-grid-03.jpg",
-      "/mnt/storage/My\\ Files/KDE\\ theme/wallpapers/neon/neon\\ city/synthwave-car-on-street.jpg",
-      "/mnt/storage/My\\ Files/KDE\\ theme/wallpapers/neon/neon\\ city/train-neon-synthwave-buildings-wallpaper.jpg",
-      "/mnt/storage/My\\ Files/KDE\\ theme/wallpapers/neon/neon\\ city/neon-synthwave-helmet.jpg",
-      "/mnt/storage/My\\ Files/KDE\\ theme/wallpapers/blade\\ runner/blade-runner-hologram-girl.png",
-      "/mnt/storage/My\\ Files/KDE\\ theme/wallpapers/neon/neon\\ island/sunset_palm_silhouette_purple.jpg",
-      "/mnt/storage/My\\ Files/KDE\\ theme/wallpapers/neon/neon-paradise-pool.png",
-      "/mnt/storage/My\\ Files/KDE\\ theme/wallpapers/neon/neon-glitch-car-horizon.png",
-      "/mnt/storage/My\\ Files/KDE\\ theme/wallpapers/neon/neon\\ landscape/neon-space-desert-road.jpg",
-      "/mnt/storage/My\\ Files/KDE\\ theme/wallpapers/neon/neon\\ landscape/neon-pyramids-saturn.jpg"
+      "/home/jim/Pictures/Storage/gifs/colorful_spiral.gif",
+      // "/home/jim/Pictures/Storage/gifs/triangle_rainbow.gif",
+      // "/home/jim/Pictures/Storage/gifs/tunnel_rays.gif",
+      // "/mnt/storage/My\\ Files/KDE\\ theme/wallpapers/neon/neon-grid-radial-sun.jpg",
+      // "/mnt/storage/My\\ Files/KDE\\ theme/wallpapers/blade\\ runner/blade-runner-hologram-girl-pointing.jpg",
+      // "/mnt/storage/My\\ Files/KDE\\ theme/wallpapers/neon/neon\\ landscape/neon-sunset-mountain-grid-01.jpg",
+      // "/mnt/storage/My\\ Files/KDE\\ theme/wallpapers/neon/neon\\ landscape/neon-sunset-mountain-grid-03.jpg",
+      // "/mnt/storage/My\\ Files/KDE\\ theme/wallpapers/neon/neon\\ city/synthwave-car-on-street.jpg",
+      // "/mnt/storage/My\\ Files/KDE\\ theme/wallpapers/neon/neon\\ city/train-neon-synthwave-buildings-wallpaper.jpg",
+      // "/mnt/storage/My\\ Files/KDE\\ theme/wallpapers/neon/neon\\ city/neon-synthwave-helmet.jpg",
+      // "/mnt/storage/My\\ Files/KDE\\ theme/wallpapers/blade\\ runner/blade-runner-hologram-girl.png",
+      // "/mnt/storage/My\\ Files/KDE\\ theme/wallpapers/neon/neon\\ island/sunset_palm_silhouette_purple.jpg",
+      // "/mnt/storage/My\\ Files/KDE\\ theme/wallpapers/neon/neon-paradise-pool.png",
+      // "/mnt/storage/My\\ Files/KDE\\ theme/wallpapers/neon/neon-glitch-car-horizon.png",
+      // "/mnt/storage/My\\ Files/KDE\\ theme/wallpapers/neon/neon\\ landscape/neon-space-desert-road.jpg",
+      // "/mnt/storage/My\\ Files/KDE\\ theme/wallpapers/neon/neon\\ landscape/neon-pyramids-saturn.jpg"
     ],
-    "opacity": 0.965, // opacity of foreground
+    "opacity": 0.99, // opacity of foreground
     "size": "cover",
     "interval": 30
   },

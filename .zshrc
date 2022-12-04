@@ -115,7 +115,7 @@ alias newalias="code $ZSH_CUSTOM/aliases.zsh"
 ALIASES="/home/jim/.oh-my-zsh/custom/aliases.zsh"
 
 ############################################
-#       DRACULA SYNTAX HIGHLIGHTING        #
+#    DRACULA THEMED SYNTAX HIGHLIGHTING    #
 ############################################
 ZSH_HIGHLIGHT_HIGHLIGHTERS=(main cursor)
 typeset -gA ZSH_HIGHLIGHT_STYLES
@@ -172,3 +172,9 @@ ZSH_HIGHLIGHT_STYLES[cursor]='fg=#FFFFFF' # fix missing cursor
 ############################
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+
+#########################
+#          NVM          #
+#########################
+# Source nvm
+source /usr/share/nvm/init-nvm.sh

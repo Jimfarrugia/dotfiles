@@ -33,7 +33,8 @@
   // Fullscreen background covers the whole window - use the ones above instead to only cover the textarea
   "background.fullscreen": {
     "image": [
-      "/home/jim/Pictures/Storage/gifs/colorful_spiral.gif",
+      "/home/jim/Pictures/Storage/gifs/blade-runner-hologram-girl-colorful-spiral.gif",
+      // "/home/jim/Pictures/Storage/gifs/colorful_spiral.gif",
       // "/home/jim/Pictures/Storage/gifs/triangle_rainbow.gif",
       // "/home/jim/Pictures/Storage/gifs/tunnel_rays.gif",
       // "/mnt/storage/My\\ Files/KDE\\ theme/wallpapers/neon/neon-grid-radial-sun.jpg",
@@ -50,7 +51,7 @@
       // "/mnt/storage/My\\ Files/KDE\\ theme/wallpapers/neon/neon\\ landscape/neon-space-desert-road.jpg",
       // "/mnt/storage/My\\ Files/KDE\\ theme/wallpapers/neon/neon\\ landscape/neon-pyramids-saturn.jpg"
     ],
-    "opacity": 0.99, // opacity of foreground
+    "opacity": 0.875, // opacity of foreground
     "size": "cover",
     "interval": 30
   },
@@ -75,6 +76,7 @@
   "background.useDefault": false,
   // If useFront is true, background is in front of code
   "background.useFront": false,
+  
   "explorer.confirmDelete": false,
   "security.workspace.trust.untrustedFiles": "open"
 }

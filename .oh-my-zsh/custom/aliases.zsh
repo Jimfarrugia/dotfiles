@@ -10,6 +10,7 @@ alias src="source $HOME/.zshrc"
 alias reboot="sudo reboot"
 alias shutdown="sudo shutdown now"
 alias syslogs="sudo journalctl -p 3 -xb"
+alias scale="xrandr --output HDMI-0 --mode 1920x1080 --rate 60 --pos 0x0 --output DP-1 --primary --mode 3840x2160 --rate 60 --pos 1920x0 --scale 0.65x0.65"
 
 # Packages
 alias p="sudo pacman"

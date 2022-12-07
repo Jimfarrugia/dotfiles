@@ -1,9 +1,10 @@
 {
   "workbench.colorTheme": "Dracula",
-  "window.zoomLevel": -2,
+  "window.zoomLevel": -0.5,
 
   "explorer.confirmDelete": false,
   "editor.fontFamily": "'JetBrains Mono', 'Droid Sans Mono', monospace",
+  "editor.fontSize": 14,
   "editor.fontLigatures": true,
   "editor.formatOnSave": true,
 

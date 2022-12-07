@@ -1,11 +1,16 @@
 {
   "workbench.colorTheme": "Dracula",
-  "window.zoomLevel": -1,
+  "window.zoomLevel": -2,
 
+  "explorer.confirmDelete": false,
   "editor.fontFamily": "'JetBrains Mono', 'Droid Sans Mono', monospace",
   "editor.fontLigatures": true,
   "editor.formatOnSave": true,
 
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "prettier.arrowParens": "avoid",
+
+  "security.workspace.trust.untrustedFiles": "open",
   "extensions.supportUntrustedWorkspaces": {
     "shalldie.background": {
       "supported": true
@@ -33,7 +38,7 @@
   // Fullscreen background covers the whole window - use the ones above instead to only cover the textarea
   "background.fullscreen": {
     "image": [
-      "/home/jim/Pictures/Storage/gifs/blade-runner-hologram-girl-colorful-spiral.gif",
+      "/home/jim/Pictures/Storage/gifs/blade-runner-hologram-girl-colorful-spiral.gif"
       // "/home/jim/Pictures/Storage/gifs/colorful_spiral.gif",
       // "/home/jim/Pictures/Storage/gifs/triangle_rainbow.gif",
       // "/home/jim/Pictures/Storage/gifs/tunnel_rays.gif",
@@ -51,7 +56,7 @@
       // "/mnt/storage/My\\ Files/KDE\\ theme/wallpapers/neon/neon\\ landscape/neon-space-desert-road.jpg",
       // "/mnt/storage/My\\ Files/KDE\\ theme/wallpapers/neon/neon\\ landscape/neon-pyramids-saturn.jpg"
     ],
-    "opacity": 0.875, // opacity of foreground
+    "opacity": 0.95, // opacity of foreground
     "size": "cover",
     "interval": 30
   },
@@ -75,8 +80,5 @@
   "background.styles": [{}, {}, {}],
   "background.useDefault": false,
   // If useFront is true, background is in front of code
-  "background.useFront": false,
-  
-  "explorer.confirmDelete": false,
-  "security.workspace.trust.untrustedFiles": "open"
+  "background.useFront": false
 }

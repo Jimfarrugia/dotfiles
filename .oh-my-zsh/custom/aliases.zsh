@@ -52,3 +52,4 @@ alias statusall="$HOME/Scripts/status_all.sh"
 # SSH
 alias sshtp="ssh jim@192.168.50.242"
 alias sshdt="ssh jim@192.168.50.244"
+alias sshkim="ssh kim@192.168.50.204"

@@ -1,10 +1,10 @@
 {
   "workbench.colorTheme": "Dracula",
-  "window.zoomLevel": -0.5,
 
   "explorer.confirmDelete": false,
+  "window.zoomLevel": -1,
   "editor.fontFamily": "'JetBrains Mono', 'Droid Sans Mono', monospace",
-  "editor.fontSize": 14,
+  "editor.fontSize": 13.5,
   "editor.fontLigatures": true,
   "editor.formatOnSave": true,
 
@@ -57,7 +57,7 @@
       // "/mnt/storage/My\\ Files/KDE\\ theme/wallpapers/neon/neon\\ landscape/neon-space-desert-road.jpg",
       // "/mnt/storage/My\\ Files/KDE\\ theme/wallpapers/neon/neon\\ landscape/neon-pyramids-saturn.jpg"
     ],
-    "opacity": 0.95, // opacity of foreground
+    "opacity": 0.9, // opacity of foreground
     "size": "cover",
     "interval": 30
   },

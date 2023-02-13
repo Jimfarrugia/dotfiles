@@ -9,7 +9,9 @@ alias src="source $HOME/.zshrc"
 # System
 alias reboot="sudo reboot"
 alias shutdown="sudo shutdown now"
-alias syslogs="sudo journalctl -p 3 -xb"
+alias syslogs="sudo journalctl -p 3 -xb" # errors only
+alias crashlogs="journalctl -b -1" # log from previous session
+alias watchlogs="journalctl --follow -e" # follow the latest output
 alias scale="xrandr --output HDMI-0 --mode 1920x1080 --rate 60 --pos 0x0 --output DP-1 --primary --mode 3840x2160 --rate 60 --pos 1920x0 --scale 0.65x0.65"
 
 # Packages
